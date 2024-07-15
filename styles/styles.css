@@ -24,6 +24,17 @@
   border: none;
   padding: 20px 45px;
 }
+
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main > section{
+  margin-top: 130px;
+}
+
+
 /* background styles */
 .bg-light{
   background-color: rgba(255, 144, 14, 0.1);
@@ -76,6 +87,47 @@
 
 .banner-img{
   width: 100%;
+}
+
+/* teams and features style */
+
+.teams{
+  align-items: center;
+}
+
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+.our-features{
+      margin-left: 130px;
+      
+}
+
+/* our features */
+
+#quick-list{
+  color: #727272;
+  font-weight: 500px;
+  font-size: 3rem;
+}
+
+#features{
+  color: rgba(255, 144, 14, 1);
+  font-weight: 500px;
+  font-size: 3rem;
+}
+
+#of-our{
+  color: #424242;
+  font-weight: 500px;
+  font-size: 3rem;
+}
+
+.features-title, .features-description{
+  margin-bottom: 30px;
 }
 
 /* responsibe styles */
