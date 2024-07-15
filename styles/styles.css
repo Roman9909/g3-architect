@@ -73,3 +73,15 @@
   margin: 0 auto;
   margin-bottom: 50px;
 }
+
+.banner-img{
+  width: 100%;
+}
+
+/* responsibe styles */
+
+@media screen and (max-width:576px) {
+          .navbar, .nav-links{
+            flex-direction: column;
+          }
+}
