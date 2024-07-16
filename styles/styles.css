@@ -135,6 +135,66 @@ main > section{
   font-weight: 400px;
 }
 
+/* feature style  */
+
+.features-section-title{
+  font-weight: 700px;
+  font-size: 2.8rem;
+  border-left: 5px solid rgba(255, 144, 14, 1);
+  padding-left: 30px;
+}
+
+.features-section-description{
+  color: #727272;
+}
+
+.features-card h3{
+  font-weight: 600px;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+..features-card p{
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400px;
+}
+
+.features-card{
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.features{
+  gap: 160px;
+}
+
+/* button badge */
+
+#btn-badge{
+  width: 344px;
+  height: 200px;
+  background-color: rgba(255, 144, 14, 1);
+  padding: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+
+#btn-years{
+  color: white;
+  font-weight: bold;
+  font-size: 3.50rem;
+
+}
+
+#btn-text{
+  color: white;
+  font-size: 1.80rem;
+}
 
 /* fact card styles */
 
@@ -207,6 +267,21 @@ main > section{
     grid-template-columns: repeat(5,1fr);
     filter: grayscale(100%);
   }
+
+/* footer style */
+
+.footer{
+  width: 1440px;
+  height: 70px;
+  background-color: #FFF4E7;
+  margin-top: 50px;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* responsibe styles */
 
